@@ -2,6 +2,13 @@
 This is a redesign of the fantastic 3bp from dbElectronics.  The goal of this project was to take the initial design and accommodate all models on one pcb without the need to swap parts. It was a team effort between myself, Retrorgb, and Jose Cruz who did the majorty of the testing. Ace, FirebrandX and Mobiusstriptech all were part of the group that helped with the redesign and added various ideas and suggestions that lead to the final product.  The audio adjustment work was done with the help of the mdFourier tool by Artemio Urbina found here - 
 https://github.com/ArtemioUrbina/MDFourier.  Artemio and Bfbii stayed up many late nights and helped me run mdFourier to get the levels to match as close as we could to a model 1 va3 genesis.
 
+From zaxour:
+Modified version of Tian Feng/dB_Electronics triple bypass v2 board
+
+Incorporates 5.6k pull up resistors for the RGB lines, as Model 1 3BP installs lift the VDP pins to isolate them from the Genesis/MD PCB. Based on research by Tian Feng, and subsequently verified by myself by looking at all available schematics for the Model 1 Genesis/MD, this causes a loss of fidelity in color transitions.
+
+The positioning of the Mini DIN has also been adjusted to fit alongside the Model 1's existing video connector.
+
 # Installation Instructions
 
 Currently I suggest using the Audio installation instructions from the mega amp 2.0
