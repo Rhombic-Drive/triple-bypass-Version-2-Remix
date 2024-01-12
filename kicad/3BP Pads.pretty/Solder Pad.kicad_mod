@@ -1,0 +1,17 @@
+(footprint "Solder Pad" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "B1" (at -0.203 -2.286) (layer "F.SilkS") hide
+      (effects (font (size 0.889 0.889) (thickness 0.203)) (justify left))
+    (tstamp 1db394ce-7daa-4f92-af6b-4702fccc059e)
+  )
+  (fp_text value "TP_50" (at -1.27 -4.139) (layer "Cmts.User") hide
+      (effects (font (size 0.889 0.889) (thickness 0.203)) (justify left))
+    (tstamp 7162f998-21e5-487e-a8e2-3354ee397006)
+  )
+  (fp_text user "rep34" (at 0 0 -90) (layer "Cmts.User")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 94b6a962-ea5f-48da-97dd-e260874a04eb)
+  )
+  (pad "1" smd rect (at 0.508 -0.889) (size 1.27 2.032) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp db9af233-bcc2-4baf-abdb-817abc9e7ca5))
+)
